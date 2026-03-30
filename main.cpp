@@ -105,28 +105,28 @@ int main(){
 
     cout << "Matrix 1:" << endl;
     m1.display();
-    cout << endl;
+    cout << "\n";
     cout << "Matrix 2:" << endl;
     m2.display();
 
-    cout << endl;
+    cout << "\n";
 
     Matrix sum = m1 + m2;
     cout << "Addition:" << endl;
     sum.display();
 
-    cout << endl;
+    cout << "\n";
 
     Matrix product = m1*m2;
     cout << "Multiplication:" << endl;
     product.display();
 
-    cout << endl;
+    cout << "\n";
 
     cout << "Sum of the main and secondary diagonals in matrix1: ";
     cout << m1.sumOfDiagonals() << endl;
 
-    cout << endl;
+    cout << "\n";
 
     m2.swapRows(0, 2);
 
